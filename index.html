@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Resume Maker</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2 class="resume-Heading">
+                    Create Your Resume!
+                </h2>
+
+                <form action="" name="ResumeForm" method="post" onsubmit="return validateForm()" required>
+                    <input type="text" placeholder="Enter your name" name="User-name" class="User-data User-name" maxlength="20" required>
+
+                    <input type="text" placeholder="Address" name="User-address" class="User-data User-address" maxlength="30" required>
+
+                    <input type="text" placeholder="Mobile No" name="User-mobile" class="User-data User-mobile" maxlength="10" required>
+
+                    <input type="file" name="User-photo" class="User-photo" required id="fileUpload" >
+
+                    <button type="button" value="Submit" class=" submit-Btn" onclick="getSubmitValue();">Submit</button>
+                </form>
+
+            </div>
+
+            <div class="resume">
+
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
