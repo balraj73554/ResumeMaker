@@ -52,7 +52,7 @@ body{
     display: block;
 }
 .User-data::placeholder{
-    font-family: cursive;
+    font-family: arial;
     color:white;
 }
 
